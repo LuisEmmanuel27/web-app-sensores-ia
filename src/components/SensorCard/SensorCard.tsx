@@ -3,6 +3,7 @@
 import './style/SensorCard.css'
 import { webp } from '@/constants/imageLinks'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 const SensorCard = ({ sensor }: SensorCardPropsIn) => {
@@ -72,20 +73,24 @@ const SensorCard = ({ sensor }: SensorCardPropsIn) => {
             </li>
           )}
           <li>
-            <Image
-              src={webp.grafico}
-              alt='grafico'
-              width={30}
-              className='selectable'
-            ></Image>
+            <Link href='/Graficos'>
+              <Image
+                src={webp.grafico}
+                alt='grafico'
+                width={30}
+                className='selectable'
+              ></Image>
+            </Link>
           </li>
           <li>
-            <Image
-              src={webp.notificacion}
-              alt='notificacion'
-              width={30}
-              className='selectable'
-            ></Image>
+            <Link href='/Notificaciones'>
+              <Image
+                src={webp.notificacion}
+                alt='notificacion'
+                width={30}
+                className='selectable'
+              ></Image>
+            </Link>
           </li>
         </ul>
       </div>
