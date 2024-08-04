@@ -1,0 +1,63 @@
+@use '../../../sass/extras/mixinsfunc';
+@import '../../../sass/extras/vars';
+
+.card-item {
+  @include mixinsfunc.flexBox(space-between, 10px);
+  padding: 20px;
+  border: solid 1px $CRISTAL;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+
+  .lado-izquierdo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .datos {
+      h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+      }
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    .temperatura {
+      h1 {
+        color: $GREENTEMP;
+        margin-bottom: 5px;
+      }
+    }
+
+    .humedad {
+      h1 {
+        color: $BLUEHUM;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .lado-derecho {
+    background-color: $BLACKY;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 4px 0.5px rgba(15, 15, 15, 0.459);
+
+    ul {
+      @include mixinsfunc.flexBox(center, 20px);
+      flex-direction: column;
+
+      li > .selectable {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@for $i from 1 through length($alternating-colors) {
+  .card-item:nth-child(#{$i}n) {
+    background-color: nth($alternating-colors, $i);
+  }
+}

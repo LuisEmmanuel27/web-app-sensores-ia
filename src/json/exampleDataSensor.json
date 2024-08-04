@@ -1,0 +1,626 @@
+{
+  "usuario": "Jhon Dee",
+  "sensores": [
+    {
+      "id": "51845613516",
+      "nombre": "sensor-demo",
+      "conectado_corriente": true,
+      "conectado_red": true,
+      "bateria": 100,
+      "max_limit_temperatura": 20,
+      "max_limit_humedad": 30,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-07-18T10:00:00Z",
+          "temperatura": 19,
+          "humedad": 25
+        },
+        {
+          "date_time": "2024-07-18T10:10:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T10:20:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T10:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T10:40:00Z",
+          "temperatura": 21,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T10:50:00Z",
+          "temperatura": 22,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T11:00:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T11:10:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T11:20:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T11:30:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T11:40:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T11:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T12:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T12:10:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T12:20:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T12:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T12:40:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T12:50:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:00:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T13:10:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T13:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T13:40:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T13:50:00Z",
+          "temperatura": 23,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T14:00:00Z",
+          "temperatura": 24,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:10:00Z",
+          "temperatura": 25,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:20:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T14:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:40:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T15:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T15:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T15:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T15:30:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T15:40:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T15:50:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T16:00:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T16:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        }
+      ]
+    },
+    {
+      "id": "51845613290",
+      "nombre": "sensor-demo-2",
+      "conectado_corriente": false,
+      "conectado_red": true,
+      "bateria": 68,
+      "max_limit_temperatura": 30,
+      "max_limit_humedad": 20,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-07-18T10:00:00Z",
+          "temperatura": 10,
+          "humedad": 10
+        },
+        {
+          "date_time": "2024-07-18T10:10:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T10:20:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T10:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T10:40:00Z",
+          "temperatura": 21,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T10:50:00Z",
+          "temperatura": 22,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T11:00:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T11:10:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T11:20:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T11:30:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T11:40:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T11:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T12:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T12:10:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T12:20:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T12:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T12:40:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T12:50:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:00:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T13:10:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T13:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T13:40:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T13:50:00Z",
+          "temperatura": 23,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T14:00:00Z",
+          "temperatura": 24,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:10:00Z",
+          "temperatura": 25,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:20:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T14:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:40:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T15:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T15:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T15:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T15:30:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T15:40:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T15:50:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T16:00:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T16:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        }
+      ]
+    },
+    {
+      "id": "51845613123",
+      "nombre": "sensor-demo-3",
+      "conectado_corriente": true,
+      "conectado_red": true,
+      "bateria": 100,
+      "max_limit_temperatura": 20,
+      "max_limit_humedad": 30,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-07-18T10:00:00Z",
+          "temperatura": 15,
+          "humedad": 20
+        },
+        {
+          "date_time": "2024-07-18T10:10:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T10:20:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T10:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T10:40:00Z",
+          "temperatura": 21,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T10:50:00Z",
+          "temperatura": 22,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T11:00:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T11:10:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T11:20:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T11:30:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T11:40:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T11:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T12:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T12:10:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T12:20:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T12:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T12:40:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T12:50:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:00:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T13:10:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T13:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T13:30:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T13:40:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T13:50:00Z",
+          "temperatura": 23,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T14:00:00Z",
+          "temperatura": 24,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:10:00Z",
+          "temperatura": 25,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:20:00Z",
+          "temperatura": 24,
+          "humedad": 35
+        },
+        {
+          "date_time": "2024-07-18T14:30:00Z",
+          "temperatura": 23,
+          "humedad": 34
+        },
+        {
+          "date_time": "2024-07-18T14:40:00Z",
+          "temperatura": 22,
+          "humedad": 33
+        },
+        {
+          "date_time": "2024-07-18T14:50:00Z",
+          "temperatura": 21,
+          "humedad": 32
+        },
+        {
+          "date_time": "2024-07-18T15:00:00Z",
+          "temperatura": 22,
+          "humedad": 31
+        },
+        {
+          "date_time": "2024-07-18T15:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        },
+        {
+          "date_time": "2024-07-18T15:20:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T15:30:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T15:40:00Z",
+          "temperatura": 18,
+          "humedad": 27
+        },
+        {
+          "date_time": "2024-07-18T15:50:00Z",
+          "temperatura": 19,
+          "humedad": 28
+        },
+        {
+          "date_time": "2024-07-18T16:00:00Z",
+          "temperatura": 20,
+          "humedad": 29
+        },
+        {
+          "date_time": "2024-07-18T16:10:00Z",
+          "temperatura": 21,
+          "humedad": 30
+        }
+      ]
+    }
+  ]
+}
