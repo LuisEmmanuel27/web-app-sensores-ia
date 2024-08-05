@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "clsx": "2.1.1",
+    "date-fns": "3.6.0",
     "next": "14.2.5",
     "react": "18",
     "react-dom": "18",
+    "recharts": "2.12.7",
     "sass": "1.77.8",
     "web-app-sensores-ia": "file:"
   },

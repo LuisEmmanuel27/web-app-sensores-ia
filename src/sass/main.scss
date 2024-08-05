@@ -10,6 +10,19 @@
   list-style: none;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $WHITE;
+  border-radius: 5px;
+}
+
 body {
   display: flex;
   gap: 1rem;

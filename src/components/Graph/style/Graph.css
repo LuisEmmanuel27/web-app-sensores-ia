@@ -1,0 +1,12 @@
+.graph-element {
+  border: solid 1px rgba(236, 238, 244, 0.3647058824);
+  border-radius: 10px;
+  background-color: #09131f;
+  padding: 1rem;
+}
+.graph-element h1 {
+  margin-bottom: 1rem;
+}
+.graph-element .chart {
+  overflow: visible;
+}/*# sourceMappingURL=Graph.css.map */

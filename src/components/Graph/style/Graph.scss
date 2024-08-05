@@ -1,0 +1,16 @@
+@import '../../../sass/extras/vars';
+
+.graph-element {
+  border: solid 1px $CRISTAL;
+  border-radius: 10px;
+  background-color: $DARKBL;
+  padding: 1rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .chart {
+    overflow: visible;
+  }
+}

@@ -1,18 +1,5 @@
 @import '../../../sass/extras/vars';
 
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: $WHITE;
-  border-radius: 5px;
-}
-
 .container-cards {
   display: grid;
   grid-template-columns: auto auto;
