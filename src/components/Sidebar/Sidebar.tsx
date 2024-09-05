@@ -43,7 +43,7 @@ const Sidebar = () => {
               width={30}
               height={30}
               alt='social media icon'
-            ></Image>
+            />
           </Link>
         ))}
       </div>

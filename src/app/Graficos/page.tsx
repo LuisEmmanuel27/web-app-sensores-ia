@@ -1,4 +1,5 @@
-import GraphsContainer from '@/components/GraphsContainer/GraphsContainer'
+import Graph from '@/components/Graph/Graph'
+import ItemsContainer from '@/components/ItemsContainer/ItemsContainer'
 import jsonData from '@/json/exampleDataSensor.json'
 
 const data: SensorIn = jsonData
@@ -8,7 +9,11 @@ const page = () => {
     <div className='main-content'>
       <h1>Gráficos</h1>
       <hr style={{ margin: '1rem 0' }} />
-      <GraphsContainer data={data} />
+      <ItemsContainer
+        data={data}
+        Component={Graph}
+        containerClass='graphs-container'
+      />
     </div>
   )
 }

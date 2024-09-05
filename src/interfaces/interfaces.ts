@@ -54,3 +54,9 @@ interface SensorCardsContPropsIn {
 interface SensorCardPropsIn {
   sensor: SensorDatIn
 }
+
+interface ItemsContainerProps {
+  data: SensorIn
+  Component: React.FC<SensorCardPropsIn>
+  containerClass: string
+}
