@@ -1,0 +1,161 @@
+{
+  "usuario": "Jhon Dee",
+  "sensores": [
+    {
+      "id": "93602081992",
+      "nombre": "sensor-demo-1",
+      "conectado_corriente": true,
+      "conectado_red": true,
+      "bateria": 100,
+      "max_limit_temperatura": 20,
+      "max_limit_humedad": 17,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-08-05T00:00:00Z",
+          "temperatura": 18,
+          "humedad": 10
+        },
+        {
+          "date_time": "2024-08-05T00:10:00Z",
+          "temperatura": 19,
+          "humedad": 12
+        },
+        {
+          "date_time": "2024-08-05T00:20:00Z",
+          "temperatura": 18,
+          "humedad": 11
+        },
+        {
+          "date_time": "2024-08-05T00:30:00Z",
+          "temperatura": 17,
+          "humedad": 13
+        },
+        {
+          "date_time": "2024-08-05T00:40:00Z",
+          "temperatura": 18,
+          "humedad": 14
+        }
+      ]
+    },
+    {
+      "id": "96066993036",
+      "nombre": "sensor-demo-2",
+      "conectado_corriente": true,
+      "conectado_red": false,
+      "bateria": 89,
+      "max_limit_temperatura": 20,
+      "max_limit_humedad": 30,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-08-05T00:00:00Z",
+          "temperatura": 18,
+          "humedad": 12
+        },
+        {
+          "date_time": "2024-08-05T00:10:00Z",
+          "temperatura": 19,
+          "humedad": 14
+        },
+        {
+          "date_time": "2024-08-05T00:20:00Z",
+          "temperatura": 18,
+          "humedad": 13
+        },
+        {
+          "date_time": "2024-08-05T00:30:00Z",
+          "temperatura": 17,
+          "humedad": 15
+        },
+        {
+          "date_time": "2024-08-05T00:40:00Z",
+          "temperatura": 18,
+          "humedad": 16
+        },
+        {
+          "date_time": "2024-08-05T00:50:00Z",
+          "temperatura": 19,
+          "humedad": 17
+        },
+        {
+          "date_time": "2024-08-05T01:00:00Z",
+          "temperatura": 20,
+          "humedad": 18
+        },
+        {
+          "date_time": "2024-08-05T01:10:00Z",
+          "temperatura": 19,
+          "humedad": 20
+        },
+        {
+          "date_time": "2024-08-05T01:20:00Z",
+          "temperatura": 20,
+          "humedad": 22
+        },
+        {
+          "date_time": "2024-08-05T01:30:00Z",
+          "temperatura": 21,
+          "humedad": 24
+        }
+      ]
+    },
+    {
+      "id": "70491282623",
+      "nombre": "sensor-demo-3",
+      "conectado_corriente": false,
+      "conectado_red": true,
+      "bateria": 71,
+      "max_limit_temperatura": 30,
+      "max_limit_humedad": 10,
+      "min_limit_temperatura": null,
+      "min_limit_humedad": null,
+      "posicion": {
+        "latitud": 19.4270206,
+        "longitud": -99.1688868
+      },
+      "medidas": [
+        {
+          "date_time": "2024-08-05T00:00:00Z",
+          "temperatura": 28,
+          "humedad": 8
+        },
+        {
+          "date_time": "2024-08-05T00:10:00Z",
+          "temperatura": 29,
+          "humedad": 7
+        },
+        {
+          "date_time": "2024-08-05T00:20:00Z",
+          "temperatura": 27,
+          "humedad": 9
+        },
+        {
+          "date_time": "2024-08-05T00:30:00Z",
+          "temperatura": 30,
+          "humedad": 10
+        },
+        {
+          "date_time": "2024-08-05T00:40:00Z",
+          "temperatura": 29,
+          "humedad": 8
+        },
+        {
+          "date_time": "2024-08-05T00:50:00Z",
+          "temperatura": 28,
+          "humedad": 7
+        }
+      ]
+    }
+  ]
+}
